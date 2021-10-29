@@ -1,3 +1,13 @@
 .app {
-    
+    $titleColor: red;
+    $paragraphColor: blue;
+    $backgroundColor: brown;
+
+    padding: 1rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+
+    h1 { color: $titleColor; }
+    p { color: $paragraphColor; }
 }
